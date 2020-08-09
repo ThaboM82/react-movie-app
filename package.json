@@ -1,0 +1,44 @@
+{
+  "name": "react-frontend-project",
+  "version": "1.0.0",
+  "description": "This is a basic project to show and filter movies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack --config ./webpack.config.js --mode production",
+    "dev": "webpack-dev-server --config ./webpack.config.js"
+  },
+  "author": "Thabo Math",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.18.2",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.6.2",
+    "@material-ui/core": "^4.4.3",
+    "@reach/router": "^1.2.1",
+    "express": "^4.17.1",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-dom": "^16.8.6"
+  }
+}
